@@ -837,6 +837,9 @@ video {
     line-height: 2.5rem;
     width: 370px;
   }
+  .intro-1__text-container {
+    width: auto;
+  }
   .intro-1__logo {
     width: 261px;
     height: 173px;
@@ -873,7 +876,10 @@ video {
     line-height: 3.8rem;
     margin-bottom: 0;
   }
-
+  .intro-2__container,
+  .intro-2__text-container {
+    width: auto;
+  }
   .intro-2__bg-1 {
     width: 447px;
     height: 465px;
