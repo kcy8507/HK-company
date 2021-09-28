@@ -415,7 +415,7 @@ body {
   margin-top: 25px;
   font-size: 2rem;
   line-height: 2.6rem;
-  width: 350px;
+  width: 210px;
 }
 
 #intro-4 {
@@ -780,6 +780,7 @@ video {
     margin-top: 30px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .inner {
     width: 700px;
@@ -802,7 +803,7 @@ video {
   .intro-2__title {
     font-size: 3rem;
     line-height: 4.3rem;
-    margin-top: 66px;
+    margin-top: 36px;
     width: 364px;
   }
   .intro-2__content {
@@ -815,14 +816,72 @@ video {
     height: 55px;
     font-size: 2rem;
     line-height: 2.4rem;
-    margin-top: 66px;
+    margin-top: 45px;
   }
 }
 
+@media screen and (max-width: 700px) {
+  .main__bg .inner,
+  #intro-1 .inner,
+  #solution .inner,
+  #intro-1 .inner,
+  #intro-2 .inner,
+  #intro-3 .inner,
+  #intro-4 .inner,
+  #footer .inner {
+    width: 550px;
+  }
+  .main__bg-circle2 {
+    width: 100%;
+  }
+  .intro-1__text-container {
+    width: auto;
+  }
+  .option__container {
+    width: 320px;
+  }
+  .intro-2__bg-1 {
+    width: 545px;
+    height: 547px;
+  }
+
+  .footer__menu a {
+    font-size: 1.7rem;
+    margin-right: 40px;
+  }
+  .footer__container {
+    font-size: 1.7rem;
+    line-height: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .intro-4__img {
+    width: 460px;
+    height: 398px;
+  }
+  .option__content {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+  .option__container {
+    width: 280px;
+  }
+}
 @media screen and (max-width: 576px) {
-  .inner {
+  .main__bg .inner,
+  #intro-1 .inner,
+  #solution .inner,
+  #intro-1 .inner,
+  #intro-2 .inner,
+  #intro-3 .inner,
+  #intro-4 .inner,
+  #footer .inner {
     width: 450px;
   }
+  /* .inner {
+    width: 450px;
+  } */
   .main__img {
     width: 450px;
     height: 315px;
@@ -906,10 +965,6 @@ video {
     margin-top: 27px;
   }
 
-  .intro-4__img {
-    width: 460px;
-    height: 398px;
-  }
   .intro-4__text-title {
     font-size: 4rem;
     line-height: 5.1rem;
@@ -940,12 +995,122 @@ video {
   #footer .inner {
     width: 520px;
   }
-  .footer__menu a {
-    font-size: 1.7rem;
-    margin-right: 40px;
+}
+
+@media screen and (max-width: 533px) {
+  .main__bg .inner,
+  #intro-1 .inner,
+  #solution .inner,
+  #intro-1 .inner,
+  #intro-2 .inner,
+  #intro-3 .inner,
+  #intro-4 .inner,
+  #footer .inner {
+    width: 330px;
   }
-  .footer__container {
-    font-size: 1.7rem;
-    line-height: 3.6rem;
+
+  .main__bg-circle1 {
+    width: 302px;
+    height: 157px;
+  }
+  .main__text-title {
+    font-size: 3.3rem;
+    line-height: 4.7rem;
+    width: auto;
+  }
+  .main__text-content {
+    width: auto;
+  }
+  .main__text-container {
+    width: 350px;
+  }
+  .intro-1__text-title {
+    font-size: 4.4rem;
+  }
+  .intro-1__text-content {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 330px;
+  }
+
+  .solution__title {
+    font-size: 4.3rem;
+  }
+  .solution__option-img {
+    width: 327px;
+    height: 327px;
+  }
+  .solution__content {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+  .option__title {
+    font-size: 3rem;
+  }
+
+  .intro-2__bg-1 {
+    width: 327px;
+    height: 335px;
+  }
+  .intro-2__logo {
+    width: 150px;
+    height: 28px;
+  }
+
+  .intro-2__container,
+  .intro-2__text-container,
+  .intro-2__content {
+    width: 330px;
+  }
+  .intro-2__title {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    margin-top: 20px;
+    width: 330px;
+  }
+  .intro-2__content {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    margin-top: 22px;
+  }
+  .intro-2__start-btn {
+    width: 122px;
+    height: 34px;
+  }
+
+  .intro-3__title {
+    font-size: 2.9rem;
+    line-height: 4.7rem;
+  }
+  .intro-3__icon-content {
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+
+  .intro-4__img {
+    width: 350px;
+    height: 308px;
+  }
+  .intro-4__container {
+    flex-direction: column;
+    width: 330px;
+  }
+  .intro-4__text-content {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+  }
+
+  .play__content {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  .footer__menu a {
+    margin-right: 13px;
+    font-size: 1.4rem;
+  }
+  .footer__text-1,
+  .footer__text-2 {
+    font-size: 1.6rem;
+    line-height: 3.3rem;
   }
 }
